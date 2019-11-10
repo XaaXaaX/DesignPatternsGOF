@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Behavioral.Strategy.Delegation.CalculatorFactory" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAQABAAmCIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegation\CalculatorFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Calculation" />
+      <Property Name="ICalculator" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Behavioral.Strategy.Delegation.ClientInvoice">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAACAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegation\ClientInvoice.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CalculatorFactory" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="Behavioral.Strategy.Delegation.ICalculator">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegation\ICalculator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="Behavioral.Strategy.Delegation.Calculation" Collapsed="true">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegation\CalculatorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
